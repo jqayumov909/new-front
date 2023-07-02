@@ -1,8 +1,45 @@
-h1 {
-  color:whitesmoke;
-  background-color: black;
-  padding: 30px;
-  border: 2px solid;
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  margin: 0;
+  padding: 0;
+  border: 2px solid darkred;
+}
+header h1 {
   text-align: center;
+  color:whitesmoke;
+  background-color: rgba(30, 28, 28, 0.8);
+  padding: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 60px;
+  border: 2px solid darkblue;
+}
+nav {
+
+  background-color: rgba(17, 16, 16, 0.8);
+  padding: 15px 0 15px 0;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+nav ul {
+
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+nav ul li {
+  padding: 10px;
+  list-style: none;
+  font-size: 30px;
+  border: 1px solid whitesmoke;
+}
+li:hover {
+  background-color: white;
+  color:black;
+}
+nav ul li a {
+  color: whitesmoke;
+  text-decoration: none;
 }
